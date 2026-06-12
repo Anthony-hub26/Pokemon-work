@@ -3,3 +3,11 @@ body{
     font-size: 15px;
     color: #000000;
 }
+.cards{
+    width: 500px;
+    margin: auto;
+    background-color: #77aca2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}

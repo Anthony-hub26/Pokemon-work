@@ -1,14 +1,38 @@
 body{
-    background-color: white;
+    background-color: gray;
     color: black;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     font-family:"Comic Sans MS", cursive, sans-serif;
+    background-image: url('../imagenes/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-# Menú de navegación 
+
 nav{
     background-color: red;
     padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+
+}
+nav a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+    margin: 0 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
 ul{
     list-style: none;
@@ -19,24 +43,32 @@ li{
     display: line;
     margin-right: 20px;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
+
 h1{
     color: red;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 42px;
 }
 p{
     text-align: center;
     color: #555;
+    font-size: 18px;
 }
 section{
     background-color: white;
     width: 600px;
-    margin: auto;
-    padding: 20px;
-    border: 2px solid black;
+    margin: 20px auto;
+    padding: 30px;
     border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.logo {
+    width: 280px;
+    margin-bottom: 20px;
+}
+.personaje {
+    width: 180px;
+    margin-top: 25px;
 }

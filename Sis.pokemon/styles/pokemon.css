@@ -12,13 +12,13 @@ nav {
     padding: 15px;
     border-radius: 8px;
 }
-nav ul {
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-nav li a {
+li a {
     color: white;
     text-decoration: none;
 }

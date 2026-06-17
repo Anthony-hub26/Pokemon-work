@@ -15,7 +15,7 @@ nav{
     background-color: red;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 8px black;
     border-radius: 15px;
 
 }
@@ -30,7 +30,6 @@ nav a{
 nav a:hover{
     color: white;
     text-decoration: underline;
-    margin: 0 25px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -40,7 +39,6 @@ ul{
     justify-content: center;
 }
 li{
-    display: line;
     margin-right: 20px;
 }
 
@@ -53,22 +51,21 @@ h1{
 p{
     text-align: center;
     color: #555;
-    font-size: 18px;
+    font-size: 30px;
+    margin-top: auto;
 }
 section{
     background-color: white;
-    width: 600px;
-    margin: 20px auto;
+    margin-top: 50px;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 8px black;
 }
 .logo {
-    width: 280px;
-    margin-bottom: 20px;
+    width: auto;
 }
 .personaje {
-    width: 180px;
+    width: auto;
     margin-top: 25px;
 }

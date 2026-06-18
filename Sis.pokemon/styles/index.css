@@ -17,6 +17,7 @@ nav{
     text-align: center;
     box-shadow: 4px 8px black;
     border-radius: 15px;
+    margin: 20px;
 
 }
 nav a{
@@ -57,7 +58,7 @@ p{
 section{
     background-color: white;
     margin-top: 50px;
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     text-align: center;
     box-shadow: 4px 8px black;

@@ -1,4 +1,96 @@
-body{
+body {
+    background-color: gray;
+    color: black;
+    margin: 0;
+    padding: 20px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url('../imagenes/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: red;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 8px black;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
     display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 8px black;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus {
+    border-color: red;
+    outline: none;
+}
+
+button {
+    background-color: red;
+    color: yellow;
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    border: 2px solid yellow;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }

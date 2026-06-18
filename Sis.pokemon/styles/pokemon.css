@@ -3,12 +3,34 @@ body {
     font-size: 15px;
     background-color: gray;
     padding: 20px;
+    background-image: url('../imagenes/2.jpg');
+    background-size: cover;
+    background-position: center;   
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
 }
-nav {
-    margin: 20px;
-    background-color: #313131;
+nav{
+    background-color: red;
     padding: 15px;
-    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 8px black;
+    border-radius: 15px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+nav a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
 }
 ul {
     list-style: none;

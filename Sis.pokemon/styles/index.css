@@ -21,6 +21,7 @@ nav{
 
 }
 nav a{
+    display:block;
     color: yellow;
     text-decoration: none;
     font-size: 18px;

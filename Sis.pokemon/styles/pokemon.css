@@ -19,6 +19,7 @@ nav {
     margin-bottom: 50px;
 }
 nav a {
+    display: block;
     color: yellow;
     text-decoration: none;
     font-size: 18px;
